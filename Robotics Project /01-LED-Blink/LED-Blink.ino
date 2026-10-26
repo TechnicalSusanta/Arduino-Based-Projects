@@ -1,9 +1,7 @@
-// Define the digital pin where your LED is connected
-const int ledPin = 9; 
+const int ledPin = 9; // Define the digital pin where your LED Positive pin is connected
 
 void setup() {
-  // Initialize the digital pin as an output
-  pinMode(ledPin, OUTPUT);
+  pinMode(ledPin, OUTPUT); // Initialize the digital pin as an output
 }
 
 void loop() {
